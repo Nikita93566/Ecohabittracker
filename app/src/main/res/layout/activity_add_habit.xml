@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 📝 Habit Name -->
+        <EditText
+            android:id="@+id/etName"
+            android:hint="Habit Name"
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:backgroundTint="#2E7D32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- 📝 Description -->
+        <EditText
+            android:id="@+id/etDesc"
+            android:hint="Description"
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:backgroundTint="#2E7D32"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <!-- 💾 Save Button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Save Habit"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2E7D32"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
